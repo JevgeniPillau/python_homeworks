@@ -1,17 +1,13 @@
 # Lesson 01 homework
 
-<<<<<<< HEAD
 # part 1, EASY level
 
+
 # Задача-1: поработайте с переменными, создайте несколько,
 # выведите на экран, запросите от пользователя и сохраните в переменную, выведите на экран
 
+# сделал домашнее задание на уровне easy
 
-=======
-# Задача-1: поработайте с переменными, создайте несколько,
-# выведите на экран, запросите от пользователя и сохраните в переменную, выведите на экран
-
->>>>>>> сделал домашнее задание на уровне easy
 # user_name = input('What is your name: ')
 # user_age = int(input('How old are you: '))
 # user_password = input('Please, insert password: ')
@@ -24,10 +20,6 @@
 # прибавьте к числу 2 и выведите результат на экран.
 # Если возникла ошибка, прочитайте ее, вспомните урок и постарайтесь устранить ошибку.
 
-<<<<<<< HEAD
-
-=======
->>>>>>> сделал домашнее задание на уровне easy
 # number = int(input('insert number: '))
 # number += 2
 # print('Well, i think my number is bigger:', number)
@@ -37,7 +29,6 @@
 # Если ему есть 18 лет, выведите: "Доступ разрешен",
 # иначе "Извините, пользование данным ресурсом только с 18 лет"
 
-<<<<<<< HEAD
 
 # user_age = int(input('How old are you: '))
 #
@@ -68,6 +59,7 @@
 #     if 0 < num < 10:
 #         num **= 2
 #         print(num)
+#         break
 #     else:
 #         print('Not a valid number')
 #         print('Number should be from 0 to 10')
@@ -131,33 +123,20 @@ if user_age < 30 and 50 <= user_weight <= 120:
         print(name_first, name_last + ',', 'возраст: ', user_age, year + 'а,', 'вес: ', user_weight, ' - хорошее состояние')
     else:
         print(name_first, name_last +',', 'возраст: ', user_age, years + ',', 'вес: ', user_weight, ' - хорошее состояние')
-elif user_age >= 30 and user_age <= 40 and user_weight < 50 or user_weight > 120:
-    if str(user_age).endswith('1'):
-        print(name_first, name_last + ',', 'возраст: ', user_age, year + ',', 'вес: ', user_weight, ' - начните вести правильный образ жизни')
-    elif str(user_age).endswith('2') or str(user_age).endswith('3') or str(user_age).endswith('4'):
-        print(name_first, name_last + ',', 'возраст: ', user_age, year + 'а,', 'вес: ', user_weight, ' - начните вести правильный образ жизни')
-    else:
-        print(name_first, name_last +',', 'возраст: ', user_age, years + ',', 'вес: ', user_weight, ' - начните вести правильный образ жизни')
-elif user_age > 40 and user_weight < 50 or user_weight > 120:
+elif user_age > 40 and (user_weight < 50 or user_weight > 120):
     if str(user_age).endswith('1'):
         print(name_first, name_last + ',', 'возраст: ', user_age, year + ',', 'вес: ', user_weight, ' - обратитесь к врачу')
     elif str(user_age).endswith('2') or str(user_age).endswith('3') or str(user_age).endswith('4'):
         print(name_first, name_last + ',', 'возраст: ', user_age, year + 'а,', 'вес: ', user_weight, ' - обратитесь к врачу')
     else:
         print(name_first, name_last + ',', 'возраст: ', user_age, years + ',', 'вес: ', user_weight, ' - обратитесь к врачу')
+elif user_age >= 30 and user_age <= 40 and (user_weight < 50 or user_weight > 120):
+    if str(user_age).endswith('1'):
+        print(name_first, name_last + ',', 'возраст: ', user_age, year + ',', 'вес: ', user_weight, ' - начните вести правильный образ жизни')
+    elif str(user_age).endswith('2') or str(user_age).endswith('3') or str(user_age).endswith('4'):
+        print(name_first, name_last + ',', 'возраст: ', user_age, year + 'а,', 'вес: ', user_weight, ' - начните вести правильный образ жизни')
+    else:
+        print(name_first, name_last +',', 'возраст: ', user_age, years + ',', 'вес: ', user_weight, ' - начните вести правильный образ жизни')
 else:
 	pass
-=======
-user_age = int(input('How old are you: '))
 
-if user_age >= 18 >= 90:
-    print('Access granted, enjoy our resource!')
-elif user_age >= 90:
-    answer = input('Are you serious? y/n: ')
-    if answer == 'y':
-        print('Access granted, enjoy our resource!')
-    else:
-        print('Goodbye!')
-else:
-    print('Sorry, only users 18 yo. and above are allowed to view this resource')
->>>>>>> сделал домашнее задание на уровне easy
