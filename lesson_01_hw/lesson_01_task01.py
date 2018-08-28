@@ -1,7 +1,5 @@
 '''1. Найти сумму и произведение цифр трехзначного числа, которое вводит пользователь.'''
 
-
-
 print('Program will return sum and product of multiply of numbers in three-digit number')
 x = int(input('Insert three-digit number: '))
 x = list(str(x))
